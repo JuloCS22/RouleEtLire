@@ -1,3 +1,22 @@
-"scripts": {
+{
+  "name": "rouleetlire",
+  "version": "1.0.0",
+  "description": "Site internet pour une fausse association pour la première évaluation Studi",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "postcss css/tailwind.css -o public/build/tailwind.css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuloCS22/RouleEtLire.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuloCS22/RouleEtLire/issues"
+  },
+  "homepage": "https://github.com/JuloCS22/RouleEtLire#readme"
+}
+
