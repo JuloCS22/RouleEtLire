@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/78704eacc7.js" crossorigin="anonymous"></script>
+    <title>RouleetLire</title>
+</head>
+<body class="h-auto w-auto">
+
+    <header class="justify-items-center m-2">
+        <nav class="shadow-xl bg-green-200 py-3 grid-cols-12 grid-rows-1 flex flex-row justify-center md:justify-between items-center rounded-lg">
+            <h2 class="font-bold col-span-12 md:col-auto pl-3 text-4xl font-mono"><i class="fas fa-bicycle mx-3"></i>Roule et Lire<i class="fas fa-book mx-3"></i></h2>
+            <button type="button" class="col-span-3 p-2 mr-3 bg-green-700 rounded-full text-white hover:bg-blue-700 hidden md:block "><a href="mailto:julien.cormont@gmail.com">CONTACT</a></button>
+        </nav>
+    </header>
+
+    <main class="m-10 mt-5">
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-around gap-8 justify-items-center">
+            <article class="shadow-xl flex flex-col gap-2 bg-gray-100 rounded-lg">
+                <h1 class="text-xl font-bold text-blue-700 text-center">Le vélo</h1>
+                <img src="https://placeimg.com/640/480/architecture" alt="vélo" class="rounded-full m-5">
+                <p class="text-justify">Adorateurs de vélo<br>
+                Vous êtes à la bonne place !<br>
+                Notre association vous permettra de vous renseigner sur les différents modèles, les marques ...<br>
+                Au delà de l'aspect visuel de votre vélo, nous vous aiderons également à retaper votre bicyclette favorite.
+                </p>
+            </article>
+            <article class="shadow-xl text-center flex flex-col items-center gap-2 bg-gray-100 rounded-lg">
+                <h1 class="text-xl font-bold text-blue-700">Nos prochains évènements</h1>
+                <img src="https://placeimg.com/640/480/nature" alt="vélo" class="rounded-full m-5">
+                <p class="text-justify">Quand on ne roule pas ou que nous ne lisons pas, nous vous proposons tout un tas d'events sympathiques !<br>
+                Réparation, décoration, marquage anti-vol ...<br>
+                Venez nous retrouver à nos nombreuses moments qui vous sont dédiés :)
+                </p>
+                <button type="button" class="p-3 m-5 bg-green-700 rounded-full text-white hover:bg-blue-700"><a href="event.html">Nous retrouver</a></button>
+            </article>
+            <article class="shadow-xl text-center flex flex-col gap-2 bg-gray-100 rounded-lg">
+                <h1 class="text-xl font-bold text-blue-700">La lecture</h1>
+                <img src="https://placeimg.com/640/480/architecture" alt="vélo" class="rounded-full m-5">
+                <p class="text-justify">Tout est dans le titre de l'assoc' !<br>
+                On aime aussi beaucoup lire et oui ...<br>
+                De Baudelaire à Stephen King, en passant par la poésie, tout est bon dans la lecture ! Notre conseil est donc de toujours
+                apporter un bon bouquin avec vous surtout.
+                </p>
+            </article>
+            <article class="shadow-xl text-center flex flex-col items-center gap-2 bg-gray-100 rounded-lg">
+                <h1 class="text-xl font-bold text-blue-700">Lorem Ipsum</h1>
+                <img src="https://placeimg.com/640/480/nature" alt="vélo" class="rounded-full m-5">
+                <p class="text-justify"> Il y a toujours un peu de Lorem Ipsum sur les sites et les exercices, alors il s'agit d'un petit clin d'oeil, rien de plus.<br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus commodo malesuada libero non accumsan.
+                </p>
+            </article>
+        </section>
+        <div class='md:hidden block fixed bottom-0 w-full'>
+            <button type="button" class='float-left p-4 m-4 bg-green-700 rounded-full text-white hover:bg-blue-700'>
+                <a href="mailto:julien.cormont@gmail.com"><i class="far fa-envelope text-2xl"></i></a>
+            </button>
+        </div>
+        <footer class="bg-blue-700 text-green-200 text-4xl flex flex-row justify-center gap-8 mt-5 py-5">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-slack"></i>
+        </footer>
+    </main>
+</body>
+</html>
